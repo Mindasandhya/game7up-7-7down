@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.container {
+    padding: 10px 25px;
+    border-radius: 25px;
+    width: 700px;
+    background-color: pink;
+   
+
+}
+
+h1{
+    background-color:#C11C84; 
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container .parent{
+display: flex;
+  justify-content: space-evenly;  
+}
+
+h2{
+
+    background-color:blueviolet;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+button{
+    background-color: green;
+    height:40px;
+    width:120px;
+}
+input {
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    background-color:gold ;
+    text-decoration-color: black;
+}
+.img wish{
+    background-image: url("waiting.png");
+}
